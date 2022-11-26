@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beatsbymxrc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main-content">
+        <h1>Beatsbymxrc payment portal</h1>
+        <hr>
+        <form action="" method="POST" id="PayForm">
+            <label for="">Name</label>
+            <input type="text" id="fullName" placeholder="Enter your fullname here...." required> 
+            <label for="">Phone Number</label>
+            <input type="number" id="phoneNumber" placeholder="Enter your phoneNumber here...." required>
+            <label for="">Email</label>
+            <input type="email" id="email" placeholder="Enter your email here...." required>
+            <label for="">Amount</label>
+            <input type="number" id="amount" placeholder="Enter your amount here...." required>   
+            <input type="submit" value="continue">
+        </form>
+    </section>
+    <script src="https://checkout.flutterwave.com/v3.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
